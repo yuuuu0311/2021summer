@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft JhengHei";
+}
+
+main {
+    position: relative;
+    max-width: 100vw;
+    min-height: 100vh;
+    padding: 0 18.75%;
+}
+
+.section-title > p {
+    font-weight: bolder;
+}
+
+.section-title > p > span {
+    color: #a00404;
+    text-transform: uppercase;
+}
+
+/* education & skills */
+.skill {
+    width: 100%;
+    background: #415165;
+    text-align: center;
+    color: white;
+}
+
+.skill-list {
+    text-align: left;
+    list-style: none;
+    margin: 0 40%;
+    border-left: 1px solid white;
+}
+
+/* experience */
+.experience-list {
+    list-style: none;
+}
+
+.experience-list > li {
+    font-weight: bolder;
+}
+
+/* footer */
+footer {
+    background: #415165;
+    max-width: 100vw;
+    color: white;
+}
+
+.icon-list {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-list > img {
+    padding-left: 1rem;
+}
