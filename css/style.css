@@ -3,57 +3,126 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Microsoft JhengHei";
+    font-weight: 900;
 }
 
 main {
     position: relative;
     max-width: 100vw;
     min-height: 100vh;
-    padding: 0 18.75%;
+    padding: 2rem 18.75% 0 18.75%;
 }
 
-.section-title > p {
-    font-weight: bolder;
+main > section {
+    padding-top: 1.5rem;
 }
 
-.section-title > p > span {
+/* header */
+header {
+    border-bottom: 2px solid black;
+}
+
+.info {
+    padding-bottom: 1rem;
+}
+
+.section-title > h3 {
+    font-weight: 900;
+    border-bottom: 1px black solid;
+    padding: 0.6rem 0;
+    margin-bottom: 0.6rem;
+}
+
+.section-title > h3 > span {
+    font-size: medium;
     color: #a00404;
     text-transform: uppercase;
 }
 
 /* education & skills */
+.education > div > p {
+    margin-bottom: 1rem;
+}
 .skill {
     width: 100%;
     background: #415165;
     text-align: center;
     color: white;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+}
+
+.skill > h2 {
+    border-bottom: 1px white solid;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
 }
 
 .skill-list {
     text-align: left;
     list-style: none;
-    margin: 0 40%;
+    margin: 1rem 40%;
+    padding-left: 1rem;
     border-left: 1px solid white;
+}
+
+.skill-list > li {
+    margin-bottom: 1rem;
 }
 
 /* experience */
 .experience-list {
     list-style: none;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+    border-left: #96a9c4 1px solid;
+    padding: 0 1rem;
 }
 
 .experience-list > li {
     font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 1.5rem;
 }
 
+.description {
+    font-weight: normal;
+}
+
+.description > p {
+    max-width: 500px;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+}
 /* footer */
 footer {
     background: #415165;
+    padding: 1rem 0;
     max-width: 100vw;
     color: white;
+    text-align: center;
+}
+
+.footer-article {
+    margin: 0 15%;
+}
+
+.footer-title {
+    border-bottom: 1px solid white;
+    padding: 0 0 0.5rem 0;
+}
+
+.contact-info {
+    padding: 1rem 0;
+}
+
+.contact-info > p {
+    margin-bottom: 1rem;
 }
 
 .icon-list {
     display: flex;
+    padding-left: 1.5rem;
     justify-content: center;
 }
 
